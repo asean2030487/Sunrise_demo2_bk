@@ -1,3 +1,4 @@
+
 <?php
 
 require_once("sql.php");
@@ -12,7 +13,7 @@ require_once("sql.php");
 </head>
 
 <body style="text-align: center">
-<form action="act/user_register.php">
+<form action="act/insert.php">
     <div style="margin-top: 2rem">
         <label for="user_name">姓名</label>
         <input type="text" id="user_name" name="user_name" placeholder="請輸入姓名">

@@ -10,10 +10,8 @@ $database = "database_test";
 
 // 建立與資料庫連線
 $conn = new mysqli($servername, $username, $password,$database);
-
 // 確認連線狀態
 if ($conn->connect_error) {
   die("連接失敗!" . $conn->connect_error);
 }
 // echo "資料庫連接成功";
-?>
