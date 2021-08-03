@@ -18,7 +18,7 @@ require_once("sql.php");
     </div>
     <div>
         <label for="user_password">密碼</label>
-        <input type="password" id="user_password" name="user_password" placeholder="請輸入密碼">
+        <input type="text" id="user_password" name="user_password" placeholder="請輸入密碼">
     </div>
     <div style="margin-top: 1rem;">
         <button type="button" onclick="register()">前往註冊</button>
