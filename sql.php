@@ -16,4 +16,8 @@ $conn->set_charset("utf8mb4");
 if ($conn->connect_error) {
   die("連接失敗!" . $conn->connect_error);
 }
+
+// 啟用Session
+session_start();
+
 // echo "資料庫連接成功";
